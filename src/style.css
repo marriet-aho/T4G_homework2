@@ -1,5 +1,5 @@
 p{
-    color: rgb(15, 233, 233);
+    color: rgb(40, 59, 230);
     
     padding: 20px;
     margin: 10px;
@@ -15,12 +15,18 @@ p{
  }
 
  h1{
-    background-color: rgb(33, 231, 182);
+    background-color: rgb(84, 233, 238);
     text-align: center;
  }
 
- image{
-    height: 5px;
-    width: 5px;
+ .image{
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+
     
  }
+  .main{
+   display: flex;
+   gap: 20px;
+  }
